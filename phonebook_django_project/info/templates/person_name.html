@@ -1,0 +1,14 @@
+{% extends 'global.html' %}
+
+{% block title %}
+Search Person By Name
+{% endblock title %}
+
+{% block content %}
+<h1>{{person.name}}</h1>
+
+<p>Email: {{ person.email }} </p>
+<p>Phone number: {{ person.phonenumber }} </p>
+<p>Address: {{ perosn.address }} </p>
+
+{% endblock content %}
